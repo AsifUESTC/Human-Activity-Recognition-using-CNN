@@ -1,14 +1,25 @@
-Human Activity Recognition with Deep Learning
-This repository contains a Jupyter Notebook that implements a deep learning model for Human Activity Recognition (HAR) using data from Kaggle. The project leverages state-of-the-art techniques to classify different types of human activities based on sensor data.
+# Human Activity Recognition using Deep Learning
 
-Dataset
-The dataset used in this project is publicly available on Kaggle and contains time-series data collected from motion sensors. It includes multiple classes of activities, such as walking, sitting, standing, and more.
+This repository contains a Jupyter Notebook that implements a deep learning model for Human Activity Recognition (HAR) using data from Kaggle. The project demonstrates the application of state-of-the-art deep learning techniques to classify different human activities based on sensor data.
 
-Dataset Link: Human Activity Recognition Dataset on Kaggle
-Project Overview
-The notebook in this repository includes the following:
+## Dataset
 
-Data Preprocessing: Steps to clean and prepare the data for modeling, including handling missing values, normalization, and splitting into training and testing sets.
-Model Development: Implementation of various deep learning models, including Convolutional Neural Networks (CNNs) and Transformer models, to predict human activities.
-Model Evaluation: Evaluation metrics and visualization of results to assess model performance.
-Hyperparameter Tuning: Techniques used to optimize the model's performance.
+The dataset utilized in this project is sourced from Kaggle, which includes time-series data collected from various motion sensors. The dataset is used to classify activities such as walking, sitting, standing, and more.
+
+- **Dataset Link:** [Human Activity Recognition Dataset on Kaggle](https://www.kaggle.com/datasets/meetnagadia/human-action-recognition-har-dataset)
+
+## Project Overview
+
+This project involves the following steps:
+
+- **Data Preprocessing:** Cleaning, normalizing, and preparing the dataset for modeling.
+- **Model Development:** Implementation of deep learning models, including Convolutional Neural Networks (CNNs) and Transformer-based models.
+- **Model Evaluation:** Assessing model performance using accuracy, confusion matrices, and other relevant metrics.
+- **Hyperparameter Tuning:** Techniques used to optimize model accuracy.
+
+## How to Use
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
